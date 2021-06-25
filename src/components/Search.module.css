@@ -9,16 +9,29 @@
 
 .searchButton {
     position: absolute;
+    color: white;
     right: 0;
     top: 0;
     cursor: pointer;
     height: 100%;
     background: none;
     border: none;
+    padding-right: 6px;
 }
 
 .searchInput {
+    color: white;
+    background-color: transparent;
+    font-size: 1.2rem;
     height: 30px;
     border-radius: 10px;
     padding: 5px 30px 5px 10px;
+    border: 1px solid white;
+}
+
+.searchInput:focus,
+.searchButton:focus {
+    outline: none;
+    border: 1px solid #A239EA;
+    box-shadow: 0 0 5px #F0D9E7;
 }
