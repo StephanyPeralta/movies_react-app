@@ -21,4 +21,4 @@ This Single Page App is connected with [TMDB API](https://www.themoviedb.org/) t
 
 ## Live Mode
 
-See [Movies React App](https://todolist-steph.herokuapp.com/).
+See [Movies React App](https://moviesappsteph.netlify.app/).
