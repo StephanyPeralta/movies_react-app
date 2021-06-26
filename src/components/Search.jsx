@@ -17,23 +17,29 @@ export function Search() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push("/?search=" + searchText);
+        if (searchText === " " || searchText === "  " || searchText === "." || searchText === undefined) {
+            return history.push("/?search=No results found");
+        } else {
+            history.push("/?search=" + searchText);
+        }
     };
 
     return (
+      <>
         <form className={styles.searchContainer} onSubmit={handleSubmit}>
-            <div className={styles.searchBox}>
-                <input 
-                    className={styles.searchInput} 
-                    type="text" 
-                    placeholder="Search"
-                    value={searchText} 
-                    onChange={(e) => setSearchText(e.target.value)} 
-                />
-                <button className={styles.searchButton} type="submit">
-                    <FaSearch size={20} />
-                </button>
-            </div>
+          <div className={styles.searchBox}>
+            <input
+              className={styles.searchInput}
+              type="text"
+              placeholder="Search"
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+            />
+            <button className={styles.searchButton} type="submit">
+              <FaSearch size={20} />
+            </button>
+          </div>
         </form>
-    )
+      </>
+    );
 };
