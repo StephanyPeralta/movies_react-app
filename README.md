@@ -10,7 +10,7 @@ This Single Page App is connected with [TMDB API](https://www.themoviedb.org/) t
 * Find a movie by typing the title in the search field.
 * Click on the image to see more details.
 
-## Tools
+## Tools & Technologies
 
 * HTML  
 * CSS
