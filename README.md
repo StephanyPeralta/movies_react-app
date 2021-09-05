@@ -1,6 +1,6 @@
 # Movies App
 
-This Single Page App is connected with [TMDB API](https://www.themoviedb.org/) that allows you to search for any movie and see its details such as "genre" and "description". This project was built with React and deployed using Netlify.
+This Single Page App is connected with the [TMDB API](https://www.themoviedb.org/) and allows you to search for any movie, see its details such as "genre" and "description". This project was built with Create React App and deployed using Netlify.
 
 ## Usage
 
@@ -12,10 +12,7 @@ This Single Page App is connected with [TMDB API](https://www.themoviedb.org/) t
 
 ## Tools & Technologies
 
-* HTML  
-* CSS
-* JS
-* React
+* Create React App
 * TMDB API
 * Netlify
 
