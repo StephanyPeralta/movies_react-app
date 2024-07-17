@@ -12,7 +12,8 @@ This Single Page App is connected with the [TMDB API](https://www.themoviedb.org
 
 ## Tools & Technologies
 
-* Create React App
+* React
+* CSS modules
 * TMDB API
 * Netlify
 
